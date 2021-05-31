@@ -1,6 +1,9 @@
 version: '3.3'
 networks:
   lemp-network:
+#  common-network:
+#    external:
+#      name: common-network
 services:
    nginx:
      depends_on:
